@@ -5,5 +5,68 @@
         "pinyin_marks": "yī",
         "pinyin_numbers": "yi1",
         "examples": []
+    },
+    {
+        "character": "二",
+        "description": "two, 2",
+        "pinyin_marks": "èr",
+        "pinyin_numbers": "er4",
+        "examples": []
+    },
+    {
+        "character": "三",
+        "description": "three, 3",
+        "pinyin_marks": "sān",
+        "pinyin_numbers": "san1",
+        "examples": []
+    },
+    {
+        "character": "四",
+        "description": "four, 4",
+        "pinyin_marks": "sì",
+        "pinyin_numbers": "si4",
+        "examples": []
+    },
+    {
+        "character": "五",
+        "description": "five, 5",
+        "pinyin_marks": "wǔ",
+        "pinyin_numbers": "wu3",
+        "examples": []
+    },
+    {
+        "character": "六",
+        "description": "six, 6",
+        "pinyin_marks": "liù",
+        "pinyin_numbers": "liu4",
+        "examples": []
+    },
+    {
+        "character": "七",
+        "description": "seven, 7",
+        "pinyin_marks": "qī",
+        "pinyin_numbers": "qi1",
+        "examples": []
+    },
+    {
+        "character": "八",
+        "description": "eight, 8",
+        "pinyin_marks": "bā",
+        "pinyin_numbers": "ba1",
+        "examples": []
+    },
+    {
+        "character": "九",
+        "description": "nine, 9",
+        "pinyin_marks": "jiǔ",
+        "pinyin_numbers": "jiu3",
+        "examples": []
+    },
+    {
+        "character": "十",
+        "description": "ten, 10",
+        "pinyin_marks": "shí",
+        "pinyin_numbers": "shi2",
+        "examples": []
     }
 ]

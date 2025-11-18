@@ -68,5 +68,19 @@
         "pinyin_marks": "shí",
         "pinyin_numbers": "shi2",
         "examples": []
+    },
+    {
+        "character": "百",
+        "description": "hundered, 100",
+        "pinyin_marks": "bǎi",
+        "pinyin_numbers": "bai3",
+        "examples": []
+    },
+    {
+        "character": "千",
+        "description": "thousand, 1000",
+        "pinyin_marks": "qiān",
+        "pinyin_numbers": "qian1",
+        "examples": []
     }
 ]

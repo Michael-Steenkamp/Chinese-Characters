@@ -1,86 +1,1246 @@
 [
-    {
-        "character": "一",
-        "description": "one, 1",
-        "pinyin_marks": "yī",
-        "pinyin_numbers": "yi1",
-        "examples": []
-    },
-    {
-        "character": "二",
-        "description": "two, 2",
-        "pinyin_marks": "èr",
-        "pinyin_numbers": "er4",
-        "examples": []
-    },
-    {
-        "character": "三",
-        "description": "three, 3",
-        "pinyin_marks": "sān",
-        "pinyin_numbers": "san1",
-        "examples": []
-    },
-    {
-        "character": "四",
-        "description": "four, 4",
-        "pinyin_marks": "sì",
-        "pinyin_numbers": "si4",
-        "examples": []
-    },
-    {
-        "character": "五",
-        "description": "five, 5",
-        "pinyin_marks": "wǔ",
-        "pinyin_numbers": "wu3",
-        "examples": []
-    },
-    {
-        "character": "六",
-        "description": "six, 6",
-        "pinyin_marks": "liù",
-        "pinyin_numbers": "liu4",
-        "examples": []
-    },
-    {
-        "character": "七",
-        "description": "seven, 7",
-        "pinyin_marks": "qī",
-        "pinyin_numbers": "qi1",
-        "examples": []
-    },
-    {
-        "character": "八",
-        "description": "eight, 8",
-        "pinyin_marks": "bā",
-        "pinyin_numbers": "ba1",
-        "examples": []
-    },
-    {
-        "character": "九",
-        "description": "nine, 9",
-        "pinyin_marks": "jiǔ",
-        "pinyin_numbers": "jiu3",
-        "examples": []
-    },
-    {
-        "character": "十",
-        "description": "ten, 10",
-        "pinyin_marks": "shí",
-        "pinyin_numbers": "shi2",
-        "examples": []
-    },
-    {
-        "character": "百",
-        "description": "hundered, 100",
-        "pinyin_marks": "bǎi",
-        "pinyin_numbers": "bai3",
-        "examples": []
-    },
-    {
-        "character": "千",
-        "description": "thousand, 1000",
-        "pinyin_marks": "qiān",
-        "pinyin_numbers": "qian1",
-        "examples": []
-    }
+  {
+    "character": "一",
+    "pinyin": "yi1",
+    "definition": "one / single / a",
+    "examples": [
+      { "word": "一起", "pinyin": "yi4qi3", "definition": "together" },
+      { "word": "一样", "pinyin": "yi2yang4", "definition": "same / alike" },
+      { "word": "一直", "pinyin": "yi4zhi2", "definition": "straight / always" }
+    ]
+  },
+  {
+    "character": "二",
+    "pinyin": "er4",
+    "definition": "two",
+    "examples": [
+      { "word": "十二", "pinyin": "shi2er4", "definition": "twelve" },
+      { "word": "二月", "pinyin": "er4yue4", "definition": "February" },
+      { "word": "二手", "pinyin": "er4shou3", "definition": "second-hand" }
+    ]
+  },
+  {
+    "character": "三",
+    "pinyin": "san1",
+    "definition": "three",
+    "examples": [
+      { "word": "三十", "pinyin": "san1shi2", "definition": "thirty" },
+      { "word": "星期三", "pinyin": "xing1qi1san1", "definition": "Wednesday" },
+      {
+        "word": "再三",
+        "pinyin": "zai4san1",
+        "definition": "over and over again"
+      }
+    ]
+  },
+  {
+    "character": "四",
+    "pinyin": "si4",
+    "definition": "four",
+    "examples": [
+      { "word": "十四", "pinyin": "shi2si4", "definition": "fourteen" },
+      { "word": "四季", "pinyin": "si4ji4", "definition": "four seasons" },
+      {
+        "word": "四川",
+        "pinyin": "si4chuan1",
+        "definition": "Sichuan province"
+      }
+    ]
+  },
+  {
+    "character": "五",
+    "pinyin": "wu3",
+    "definition": "five",
+    "examples": [
+      { "word": "五月", "pinyin": "wu3yue4", "definition": "May" },
+      {
+        "word": "五颜六色",
+        "pinyin": "wu3yan2liu4se4",
+        "definition": "colorful"
+      },
+      { "word": "第五", "pinyin": "di4wu3", "definition": "fifth" }
+    ]
+  },
+  {
+    "character": "六",
+    "pinyin": "liu4",
+    "definition": "six",
+    "examples": [
+      { "word": "星期六", "pinyin": "xing1qi1liu4", "definition": "Saturday" },
+      { "word": "十六", "pinyin": "shi2liu4", "definition": "sixteen" },
+      { "word": "六十", "pinyin": "liu4shi2", "definition": "sixty" }
+    ]
+  },
+  {
+    "character": "七",
+    "pinyin": "qi1",
+    "definition": "seven",
+    "examples": [
+      { "word": "七月", "pinyin": "qi1yue4", "definition": "July" },
+      {
+        "word": "乱七八糟",
+        "pinyin": "luan4qi1ba1zao1",
+        "definition": "messy / in disorder"
+      },
+      { "word": "十七", "pinyin": "shi2qi1", "definition": "seventeen" }
+    ]
+  },
+  {
+    "character": "八",
+    "pinyin": "ba1",
+    "definition": "eight",
+    "examples": [
+      { "word": "八月", "pinyin": "ba1yue4", "definition": "August" },
+      { "word": "八方", "pinyin": "ba1fang1", "definition": "all directions" },
+      { "word": "十八", "pinyin": "shi2ba1", "definition": "eighteen" }
+    ]
+  },
+  {
+    "character": "九",
+    "pinyin": "jiu3",
+    "definition": "nine",
+    "examples": [
+      { "word": "九月", "pinyin": "jiu3yue4", "definition": "September" },
+      { "word": "十九", "pinyin": "shi2jiu3", "definition": "nineteen" },
+      { "word": "九点", "pinyin": "jiu3dian3", "definition": "nine o'clock" }
+    ]
+  },
+  {
+    "character": "十",
+    "pinyin": "shi2",
+    "definition": "ten",
+    "examples": [
+      {
+        "word": "十分",
+        "pinyin": "shi2fen1",
+        "definition": "very / completely / 10 minutes"
+      },
+      { "word": "几十", "pinyin": "ji3shi2", "definition": "several tens" },
+      {
+        "word": "十字路口",
+        "pinyin": "shi2zi4lu4kou3",
+        "definition": "crossroads / intersection"
+      }
+    ]
+  },
+  {
+    "character": "百",
+    "pinyin": "bai3",
+    "definition": "hundred",
+    "examples": [
+      { "word": "一百", "pinyin": "yi1bai3", "definition": "one hundred" },
+      {
+        "word": "百姓",
+        "pinyin": "bai3xing4",
+        "definition": "common people (the 100 surnames)"
+      },
+      {
+        "word": "百货",
+        "pinyin": "bai3huo4",
+        "definition": "general merchandise"
+      }
+    ]
+  },
+  {
+    "character": "千",
+    "pinyin": "qian1",
+    "definition": "thousand",
+    "examples": [
+      { "word": "一千", "pinyin": "yi1qian1", "definition": "one thousand" },
+      {
+        "word": "千万",
+        "pinyin": "qian1wan4",
+        "definition": "ten million / absolutely (must)"
+      },
+      {
+        "word": "秋千",
+        "pinyin": "qiu1qian1",
+        "definition": "swing (play equipment)"
+      }
+    ]
+  },
+  {
+    "character": "日",
+    "pinyin": "ri4",
+    "definition": "sun / day",
+    "examples": [
+      { "word": "生日", "pinyin": "sheng1ri4", "definition": "birthday" },
+      { "word": "日记", "pinyin": "ri4ji4", "definition": "diary" },
+      {
+        "word": "节日",
+        "pinyin": "jie2ri4",
+        "definition": "holiday / festival"
+      }
+    ]
+  },
+  {
+    "character": "月",
+    "pinyin": "yue4",
+    "definition": "moon / month",
+    "examples": [
+      { "word": "月亮", "pinyin": "yue4liang", "definition": "moon" },
+      { "word": "一月", "pinyin": "yi1yue4", "definition": "January" },
+      { "word": "月饼", "pinyin": "yue4bing3", "definition": "mooncake" }
+    ]
+  },
+  {
+    "character": "星",
+    "pinyin": "xing1",
+    "definition": "star",
+    "examples": [
+      { "word": "星星", "pinyin": "xing1xing", "definition": "star" },
+      { "word": "星期", "pinyin": "xing1qi1", "definition": "week" },
+      { "word": "火星", "pinyin": "huo3xing1", "definition": "Mars" }
+    ]
+  },
+  {
+    "character": "云",
+    "pinyin": "yun2",
+    "definition": "cloud",
+    "examples": [
+      { "word": "白云", "pinyin": "bai2yun2", "definition": "white cloud" },
+      { "word": "云彩", "pinyin": "yun2cai", "definition": "clouds" },
+      { "word": "云南", "pinyin": "yun2nan2", "definition": "Yunnan province" }
+    ]
+  },
+  {
+    "character": "你",
+    "pinyin": "ni3",
+    "definition": "you",
+    "examples": [
+      { "word": "你们", "pinyin": "ni3men", "definition": "you (plural)" },
+      { "word": "你好", "pinyin": "ni3hao3", "definition": "hello" },
+      { "word": "你的", "pinyin": "ni3de", "definition": "yours" }
+    ]
+  },
+  {
+    "character": "好",
+    "pinyin": "hao3",
+    "definition": "good / well",
+    "examples": [
+      { "word": "你好", "pinyin": "ni3hao3", "definition": "hello" },
+      { "word": "好吃", "pinyin": "hao3chi1", "definition": "delicious" },
+      { "word": "好看", "pinyin": "hao3kan4", "definition": "good-looking" }
+    ]
+  },
+  {
+    "character": "您",
+    "pinyin": "nin2",
+    "definition": "you (polite)",
+    "examples": [
+      { "word": "您好", "pinyin": "nin2hao3", "definition": "hello (polite)" },
+      {
+        "word": "您早",
+        "pinyin": "nin2zao3",
+        "definition": "good morning (polite)"
+      }
+    ]
+  },
+  {
+    "character": "们",
+    "pinyin": "men",
+    "definition": "plural marker for people",
+    "examples": [
+      { "word": "你们", "pinyin": "ni3men", "definition": "you (plural)" },
+      { "word": "我们", "pinyin": "wo3men", "definition": "we / us" },
+      { "word": "他们", "pinyin": "ta1men", "definition": "they" }
+    ]
+  },
+  {
+    "character": "老",
+    "pinyin": "lao3",
+    "definition": "old / venerable",
+    "examples": [
+      { "word": "老师", "pinyin": "lao3shi1", "definition": "teacher" },
+      { "word": "老人", "pinyin": "lao3ren2", "definition": "old person" },
+      { "word": "老板", "pinyin": "lao3ban3", "definition": "boss" }
+    ]
+  },
+  {
+    "character": "师",
+    "pinyin": "shi1",
+    "definition": "teacher / master / expert",
+    "examples": [
+      { "word": "老师", "pinyin": "lao3shi1", "definition": "teacher" },
+      { "word": "律师", "pinyin": "lv4shi1", "definition": "lawyer" },
+      {
+        "word": "工程师",
+        "pinyin": "gong1cheng2shi1",
+        "definition": "engineer"
+      }
+    ]
+  },
+  {
+    "character": "大",
+    "pinyin": "da4",
+    "definition": "big / large",
+    "examples": [
+      { "word": "大家", "pinyin": "da4jia1", "definition": "everybody" },
+      { "word": "大人", "pinyin": "da4ren2", "definition": "adult" },
+      { "word": "大学", "pinyin": "da4xue2", "definition": "university" }
+    ]
+  },
+  {
+    "character": "家",
+    "pinyin": "jia1",
+    "definition": "family / home",
+    "examples": [
+      { "word": "大家", "pinyin": "da4jia1", "definition": "everybody" },
+      { "word": "回家", "pinyin": "hui2jia1", "definition": "go home" },
+      { "word": "国家", "pinyin": "guo2jia1", "definition": "country" }
+    ]
+  },
+  {
+    "character": "对",
+    "pinyin": "dui4",
+    "definition": "correct / facing / to treat",
+    "examples": [
+      { "word": "对不起", "pinyin": "dui4buqǐ", "definition": "sorry" },
+      { "word": "不对", "pinyin": "bu2dui4", "definition": "incorrect" },
+      { "word": "对面", "pinyin": "dui4mian4", "definition": "opposite side" }
+    ]
+  },
+  {
+    "character": "不",
+    "pinyin": "bu4",
+    "definition": "no / not",
+    "examples": [
+      { "word": "对不起", "pinyin": "dui4buqǐ", "definition": "sorry" },
+      { "word": "不客气", "pinyin": "búke4qi", "definition": "you're welcome" },
+      { "word": "不要", "pinyin": "bu2yao4", "definition": "don't want" }
+    ]
+  },
+  {
+    "character": "起",
+    "pinyin": "qi3",
+    "definition": "to rise / to get up",
+    "examples": [
+      { "word": "对不起", "pinyin": "dui4buqǐ", "definition": "sorry" },
+      {
+        "word": "起床",
+        "pinyin": "qi3chuang2",
+        "definition": "get out of bed"
+      },
+      { "word": "起来", "pinyin": "qi3lai2", "definition": "stand up" }
+    ]
+  },
+  {
+    "character": "没",
+    "pinyin": "mei2",
+    "definition": "not have / none",
+    "examples": [
+      {
+        "word": "没关系",
+        "pinyin": "mei2guan1xi",
+        "definition": "it doesn't matter"
+      },
+      { "word": "没有", "pinyin": "mei2you3", "definition": "don't have" },
+      {
+        "word": "没事",
+        "pinyin": "mei2shi4",
+        "definition": "it's nothing / I'm fine"
+      }
+    ]
+  },
+  {
+    "character": "关",
+    "pinyin": "guan1",
+    "definition": "to close / to concern",
+    "examples": [
+      {
+        "word": "没关系",
+        "pinyin": "mei2guan1xi",
+        "definition": "it doesn't matter"
+      },
+      { "word": "关门", "pinyin": "guan1men2", "definition": "close the door" },
+      { "word": "关心", "pinyin": "guan1xin1", "definition": "to care for" }
+    ]
+  },
+  {
+    "character": "系",
+    "pinyin": "xi4",
+    "definition": "system / connection",
+    "examples": [
+      {
+        "word": "没关系",
+        "pinyin": "mei2guan1xi",
+        "definition": "it doesn't matter"
+      },
+      { "word": "关系", "pinyin": "guan1xi", "definition": "relationship" },
+      { "word": "联系", "pinyin": "lian2xi4", "definition": "contact" }
+    ]
+  },
+  {
+    "character": "谢",
+    "pinyin": "xie4",
+    "definition": "to thank",
+    "examples": [
+      { "word": "谢谢", "pinyin": "xie4xie", "definition": "thank you" },
+      { "word": "感谢", "pinyin": "gan3xie4", "definition": "grateful" },
+      { "word": "多谢", "pinyin": "duo1xie4", "definition": "many thanks" }
+    ]
+  },
+  {
+    "character": "客",
+    "pinyin": "ke4",
+    "definition": "guest / visitor",
+    "examples": [
+      { "word": "不客气", "pinyin": "búke4qi", "definition": "you're welcome" },
+      { "word": "客人", "pinyin": "ke4ren2", "definition": "guest" },
+      {
+        "word": "请客",
+        "pinyin": "qing3ke4",
+        "definition": "to treat (someone to a meal)"
+      }
+    ]
+  },
+  {
+    "character": "气",
+    "pinyin": "qi4",
+    "definition": "air / gas / spirit",
+    "examples": [
+      { "word": "不客气", "pinyin": "búke4qi", "definition": "you're welcome" },
+      { "word": "天气", "pinyin": "tian1qi4", "definition": "weather" },
+      { "word": "生气", "pinyin": "sheng1qi4", "definition": "angry" }
+    ]
+  },
+  {
+    "character": "再",
+    "pinyin": "zai4",
+    "definition": "again / once more",
+    "examples": [
+      { "word": "再见", "pinyin": "zai4jian4", "definition": "goodbye" },
+      { "word": "再来", "pinyin": "zai4lai2", "definition": "come again" },
+      { "word": "再三", "pinyin": "zai4san1", "definition": "repeatedly" }
+    ]
+  },
+  {
+    "character": "见",
+    "pinyin": "jian4",
+    "definition": "to see / to meet",
+    "examples": [
+      { "word": "再见", "pinyin": "zai4jian4", "definition": "goodbye" },
+      { "word": "见面", "pinyin": "jian4mian4", "definition": "meet up" },
+      { "word": "看见", "pinyin": "kan4jian4", "definition": "to see" }
+    ]
+  },
+  {
+    "character": "请",
+    "pinyin": "qing3",
+    "definition": "please / to invite",
+    "examples": [
+      { "word": "请问", "pinyin": "qing3wen4", "definition": "may I ask..." },
+      { "word": "请进", "pinyin": "qing3jin4", "definition": "please come in" },
+      { "word": "请坐", "pinyin": "qing3zuo4", "definition": "please sit" }
+    ]
+  },
+  {
+    "character": "进",
+    "pinyin": "jin4",
+    "definition": "to enter / advance",
+    "examples": [
+      { "word": "请进", "pinyin": "qing3jin4", "definition": "please come in" },
+      { "word": "进来", "pinyin": "jin4lai2", "definition": "come in" },
+      { "word": "进步", "pinyin": "jin4bu4", "definition": "progress" }
+    ]
+  },
+  {
+    "character": "坐",
+    "pinyin": "zuo4",
+    "definition": "to sit",
+    "examples": [
+      { "word": "请坐", "pinyin": "qing3zuo4", "definition": "please sit" },
+      { "word": "坐下", "pinyin": "zuo4xia4", "definition": "sit down" },
+      { "word": "坐车", "pinyin": "zuo4che1", "definition": "take a car/bus" }
+    ]
+  },
+  {
+    "character": "听",
+    "pinyin": "ting1",
+    "definition": "to listen",
+    "examples": [
+      { "word": "听力", "pinyin": "ting1li4", "definition": "listening skill" },
+      { "word": "听见", "pinyin": "ting1jian4", "definition": "to hear" },
+      {
+        "word": "好听",
+        "pinyin": "hao3ting1",
+        "definition": "pleasant to hear"
+      }
+    ]
+  },
+  {
+    "character": "说",
+    "pinyin": "shuo1",
+    "definition": "to speak / to say",
+    "examples": [
+      { "word": "说话", "pinyin": "shuo1hua4", "definition": "to talk" },
+      { "word": "说明", "pinyin": "shuo1ming2", "definition": "explain" },
+      { "word": "小说", "pinyin": "xiao3shuo1", "definition": "novel" }
+    ]
+  },
+  {
+    "character": "读",
+    "pinyin": "du2",
+    "definition": "to read / to study",
+    "examples": [
+      {
+        "word": "读书",
+        "pinyin": "du2shu1",
+        "definition": "read book / study"
+      },
+      { "word": "阅读", "pinyin": "yue4du2", "definition": "reading" },
+      { "word": "读音", "pinyin": "du2yin1", "definition": "pronunciation" }
+    ]
+  },
+  {
+    "character": "写",
+    "pinyin": "xie3",
+    "definition": "to write",
+    "examples": [
+      { "word": "写字", "pinyin": "xie3zi4", "definition": "write characters" },
+      { "word": "写作", "pinyin": "xie3zuo4", "definition": "writing" },
+      { "word": "大写", "pinyin": "da4xie3", "definition": "capital letters" }
+    ]
+  },
+  {
+    "character": "吗",
+    "pinyin": "ma",
+    "definition": "question particle",
+    "examples": [
+      { "word": "你好吗", "pinyin": "ni3hao3ma", "definition": "How are you?" },
+      { "word": "是吗", "pinyin": "shi4ma", "definition": "Is it? / Really?" },
+      { "word": "行吗", "pinyin": "xing2ma", "definition": "Is it okay?" }
+    ]
+  },
+  {
+    "character": "很",
+    "pinyin": "hen3",
+    "definition": "very",
+    "examples": [
+      { "word": "很好", "pinyin": "hen3hao3", "definition": "very good" },
+      { "word": "很多", "pinyin": "hen3duo1", "definition": "many / a lot" },
+      { "word": "很快", "pinyin": "hen3kuai4", "definition": "very fast" }
+    ]
+  },
+  {
+    "character": "不",
+    "pinyin": "bu4",
+    "definition": "no / not",
+    "examples": [
+      { "word": "不好", "pinyin": "bu4hao3", "definition": "not good" },
+      { "word": "不对", "pinyin": "bu2dui4", "definition": "incorrect" },
+      {
+        "word": "不要",
+        "pinyin": "bu2yao4",
+        "definition": "don't want / must not"
+      }
+    ]
+  },
+  {
+    "character": "太",
+    "pinyin": "tai4",
+    "definition": "too / extremely",
+    "examples": [
+      { "word": "太太", "pinyin": "tai4tai", "definition": "Mrs. / wife" },
+      { "word": "太阳", "pinyin": "tai4yang2", "definition": "sun" },
+      { "word": "太多", "pinyin": "tai4duo1", "definition": "too much/many" }
+    ]
+  },
+  {
+    "character": "非",
+    "pinyin": "fei1",
+    "definition": "not / wrong / non-",
+    "examples": [
+      {
+        "word": "非常",
+        "pinyin": "fei1chang2",
+        "definition": "extraordinary / very"
+      },
+      { "word": "非法", "pinyin": "fei1fa3", "definition": "illegal" },
+      { "word": "除非", "pinyin": "chu2fei1", "definition": "unless" }
+    ]
+  },
+  {
+    "character": "常",
+    "pinyin": "chang2",
+    "definition": "always / often / ordinary",
+    "examples": [
+      {
+        "word": "非常",
+        "pinyin": "fei1chang2",
+        "definition": "extraordinary / very"
+      },
+      { "word": "经常", "pinyin": "jing1chang2", "definition": "often" },
+      { "word": "正常", "pinyin": "zheng4chang2", "definition": "normal" }
+    ]
+  },
+  {
+    "character": "也",
+    "pinyin": "ye3",
+    "definition": "also / too",
+    "examples": [
+      { "word": "也许", "pinyin": "ye3xu3", "definition": "perhaps / maybe" },
+      { "word": "也是", "pinyin": "ye3shi4", "definition": "is also" },
+      { "word": "也好", "pinyin": "ye3hao3", "definition": "may as well" }
+    ]
+  },
+  {
+    "character": "都",
+    "pinyin": "dou1",
+    "definition": "all / both",
+    "examples": [
+      { "word": "都是", "pinyin": "dou1shi4", "definition": "are all" },
+      { "word": "全都", "pinyin": "quan2dou1", "definition": "all / every" },
+      { "word": "到处", "pinyin": "dao4chu4", "definition": "everywhere" }
+    ]
+  },
+  {
+    "character": "饿",
+    "pinyin": "e4",
+    "definition": "hungry",
+    "examples": [
+      {
+        "word": "饿了",
+        "pinyin": "e4le",
+        "definition": "hungry (became hungry)"
+      },
+      {
+        "word": "饥饿",
+        "pinyin": "ji1e4",
+        "definition": "hunger / starvation"
+      },
+      { "word": "挨饿", "pinyin": "ai2e4", "definition": "to suffer hunger" }
+    ]
+  },
+  {
+    "character": "渴",
+    "pinyin": "ke3",
+    "definition": "thirsty",
+    "examples": [
+      { "word": "口渴", "pinyin": "kou3ke3", "definition": "thirsty" },
+      {
+        "word": "渴望",
+        "pinyin": "ke3wang4",
+        "definition": "to thirst for / long for"
+      }
+    ]
+  },
+  {
+    "character": "冷",
+    "pinyin": "leng3",
+    "definition": "cold",
+    "examples": [
+      { "word": "寒冷", "pinyin": "han2leng3", "definition": "cold (climate)" },
+      { "word": "冷水", "pinyin": "leng3shui3", "definition": "cold water" },
+      {
+        "word": "冷静",
+        "pinyin": "leng3jing4",
+        "definition": "calm / cool-headed"
+      }
+    ]
+  },
+  {
+    "character": "热",
+    "pinyin": "re4",
+    "definition": "hot",
+    "examples": [
+      { "word": "热水", "pinyin": "re4shui3", "definition": "hot water" },
+      { "word": "热爱", "pinyin": "re4ai4", "definition": "to love ardently" },
+      { "word": "热闹", "pinyin": "re4nao", "definition": "lively / bustling" }
+    ]
+  },
+  {
+    "character": "忙",
+    "pinyin": "mang2",
+    "definition": "busy",
+    "examples": [
+      { "word": "帮忙", "pinyin": "bang1mang2", "definition": "to help" },
+      { "word": "急忙", "pinyin": "ji2mang2", "definition": "hastily" },
+      { "word": "忙碌", "pinyin": "mang2lu4", "definition": "busy" }
+    ]
+  },
+  {
+    "character": "累",
+    "pinyin": "lei4",
+    "definition": "tired",
+    "examples": [
+      {
+        "word": "劳累",
+        "pinyin": "lao2lei4",
+        "definition": "tired / overworked"
+      },
+      {
+        "word": "受累",
+        "pinyin": "shou4lei4",
+        "definition": "to get involved / dragged in"
+      },
+      { "word": "很累", "pinyin": "hen3lei4", "definition": "very tired" }
+    ]
+  },
+  {
+    "character": "高",
+    "pinyin": "gao1",
+    "definition": "high / tall",
+    "examples": [
+      { "word": "高兴", "pinyin": "gao1xing4", "definition": "happy / glad" },
+      { "word": "高大", "pinyin": "gao1da4", "definition": "tall / big" },
+      {
+        "word": "提高",
+        "pinyin": "ti2gao1",
+        "definition": "to improve / raise"
+      }
+    ]
+  },
+  {
+    "character": "兴",
+    "pinyin": "xing4",
+    "definition": "interest / mood",
+    "examples": [
+      { "word": "高兴", "pinyin": "gao1xing4", "definition": "happy / glad" },
+      { "word": "兴趣", "pinyin": "xing4qu4", "definition": "interest" },
+      { "word": "兴奋", "pinyin": "xing1fen4", "definition": "excited" }
+    ]
+  },
+  {
+    "character": "爸",
+    "pinyin": "ba4",
+    "definition": "father / dad",
+    "examples": [
+      { "word": "爸爸", "pinyin": "ba4ba", "definition": "dad" },
+      { "word": "老爸", "pinyin": "lao3ba4", "definition": "dad (informal)" }
+    ]
+  },
+  {
+    "character": "妈",
+    "pinyin": "ma1",
+    "definition": "mother / mom",
+    "examples": [
+      { "word": "妈妈", "pinyin": "ma1ma", "definition": "mom" },
+      {
+        "word": "姑妈",
+        "pinyin": "gu1ma1",
+        "definition": "aunt (father's sister)"
+      },
+      {
+        "word": "大妈",
+        "pinyin": "da4ma1",
+        "definition": "aunt / elderly woman"
+      }
+    ]
+  },
+  {
+    "character": "哥",
+    "pinyin": "ge1",
+    "definition": "older brother",
+    "examples": [
+      { "word": "哥哥", "pinyin": "ge1ge", "definition": "older brother" },
+      {
+        "word": "大哥",
+        "pinyin": "da4ge1",
+        "definition": "eldest brother / boss"
+      },
+      { "word": "帅哥", "pinyin": "shuai4ge1", "definition": "handsome guy" }
+    ]
+  },
+  {
+    "character": "姐",
+    "pinyin": "jie3",
+    "definition": "older sister",
+    "examples": [
+      { "word": "姐姐", "pinyin": "jie3jie", "definition": "older sister" },
+      {
+        "word": "小姐",
+        "pinyin": "xiao3jie3",
+        "definition": "Miss / young lady"
+      },
+      {
+        "word": "大姐",
+        "pinyin": "da4jie3",
+        "definition": "eldest sister / ma'am"
+      }
+    ]
+  },
+  {
+    "character": "弟",
+    "pinyin": "di4",
+    "definition": "younger brother",
+    "examples": [
+      { "word": "弟弟", "pinyin": "di4di", "definition": "younger brother" },
+      { "word": "兄弟", "pinyin": "xiong1di4", "definition": "brothers" },
+      {
+        "word": "表弟",
+        "pinyin": "biao3di4",
+        "definition": "younger male cousin"
+      }
+    ]
+  },
+  {
+    "character": "妹",
+    "pinyin": "mei4",
+    "definition": "younger sister",
+    "examples": [
+      { "word": "妹妹", "pinyin": "mei4mei", "definition": "younger sister" },
+      { "word": "姐妹", "pinyin": "jie3mei4", "definition": "sisters" },
+      {
+        "word": "小妹",
+        "pinyin": "xiao3mei4",
+        "definition": "younger sister / girl"
+      }
+    ]
+  },
+  {
+    "character": "爱",
+    "pinyin": "ai4",
+    "definition": "to love / affection",
+    "examples": [
+      { "word": "爱人", "pinyin": "ai4ren", "definition": "spouse" },
+      { "word": "爱好", "pinyin": "ai4hao4", "definition": "hobby" },
+      { "word": "爱情", "pinyin": "ai4qing2", "definition": "romantic love" }
+    ]
+  },
+  {
+    "character": "人",
+    "pinyin": "ren2",
+    "definition": "person",
+    "examples": [
+      { "word": "爱人", "pinyin": "ai4ren", "definition": "spouse" },
+      { "word": "人类", "pinyin": "ren2lei4", "definition": "humanity" },
+      { "word": "客人", "pinyin": "ke4ren2", "definition": "guest" }
+    ]
+  },
+  {
+    "character": "叫",
+    "pinyin": "jiao4",
+    "definition": "to call / to shout",
+    "examples": [
+      {
+        "word": "叫",
+        "pinyin": "jiao4",
+        "definition": "to be called / to call"
+      },
+      {
+        "word": "大叫",
+        "pinyin": "da4jiao4",
+        "definition": "to scream"
+      }
+    ]
+  },
+  {
+    "character": "什",
+    "pinyin": "shen2",
+    "definition": "what (compound)",
+    "examples": [
+      {
+        "word": "什么",
+        "pinyin": "shen2me",
+        "definition": "what"
+      }
+    ]
+  },
+  {
+    "character": "么",
+    "pinyin": "me",
+    "definition": "suffix",
+    "examples": [
+      {
+        "word": "什么",
+        "pinyin": "shen2me",
+        "definition": "what"
+      }
+    ]
+  },
+  {
+    "character": "名",
+    "pinyin": "ming2",
+    "definition": "name",
+    "examples": [
+      {
+        "word": "名字",
+        "pinyin": "ming2zi",
+        "definition": "name"
+      },
+      {
+        "word": "有名",
+        "pinyin": "you3ming2",
+        "definition": "famous"
+      }
+    ]
+  },
+  {
+    "character": "字",
+    "pinyin": "zi4",
+    "definition": "character / word",
+    "examples": [
+      {
+        "word": "名字",
+        "pinyin": "ming2zi",
+        "definition": "name"
+      },
+      {
+        "word": "汉字",
+        "pinyin": "han4zi4",
+        "definition": "Chinese character"
+      }
+    ]
+  },
+  {
+    "character": "是",
+    "pinyin": "shi4",
+    "definition": "is / am / are",
+    "examples": [
+      {
+        "word": "是",
+        "pinyin": "shi4",
+        "definition": "to be (am/is/are)"
+      }
+    ]
+  },
+  {
+    "character": "哪",
+    "pinyin": "na3",
+    "definition": "which / where",
+    "examples": [
+      {
+        "word": "哪",
+        "pinyin": "na3",
+        "definition": "which"
+      }
+    ]
+  },
+  {
+    "character": "国",
+    "pinyin": "guo2",
+    "definition": "country",
+    "examples": [
+      {
+        "word": "国",
+        "pinyin": "guo2",
+        "definition": "country"
+      },
+      {
+        "word": "中国",
+        "pinyin": "Zhong1guo2",
+        "definition": "China"
+      },
+      {
+        "word": "美国",
+        "pinyin": "Mei3guo2",
+        "definition": "USA"
+      }
+    ]
+  },
+  {
+    "character": "人",
+    "pinyin": "ren2",
+    "definition": "person",
+    "examples": [
+      {
+        "word": "人",
+        "pinyin": "ren2",
+        "definition": "person"
+      },
+      {
+        "word": "男人",
+        "pinyin": "nan2ren2",
+        "definition": "man"
+      }
+    ]
+  },
+  {
+    "character": "喜",
+    "pinyin": "xi3",
+    "definition": "happy / like",
+    "examples": [
+      {
+        "word": "喜欢",
+        "pinyin": "xi3huan",
+        "definition": "to like"
+      },
+      {
+        "word": "喜剧",
+        "pinyin": "xi3ju4",
+        "definition": "comedy"
+      }
+    ]
+  },
+  {
+    "character": "欢",
+    "pinyin": "huan1",
+    "definition": "joyous",
+    "examples": [
+      {
+        "word": "喜欢",
+        "pinyin": "xi3huan",
+        "definition": "to like"
+      },
+      {
+        "word": "欢乐",
+        "pinyin": "huan1le4",
+        "definition": "happy / joyous"
+      }
+    ]
+  },
+  {
+    "character": "吃",
+    "pinyin": "chi1",
+    "definition": "to eat",
+    "examples": [
+      {
+        "word": "吃",
+        "pinyin": "chi1",
+        "definition": "to eat"
+      }
+    ]
+  },
+  {
+    "character": "喝",
+    "pinyin": "he1",
+    "definition": "to drink",
+    "examples": [
+      {
+        "word": "喝",
+        "pinyin": "he1",
+        "definition": "to drink"
+      }
+    ]
+  },
+  {
+    "character": "买",
+    "pinyin": "mai3",
+    "definition": "to buy",
+    "examples": [
+      {
+        "word": "买",
+        "pinyin": "mai3",
+        "definition": "to buy"
+      }
+    ]
+  },
+  {
+    "character": "中",
+    "pinyin": "zhong1",
+    "definition": "middle / center",
+    "examples": [
+      {
+        "word": "中国",
+        "pinyin": "Zhong1guo2",
+        "definition": "China"
+      },
+      {
+        "word": "中文",
+        "pinyin": "zhong1wen2",
+        "definition": "Chinese language"
+      }
+    ]
+  },
+  {
+    "character": "美",
+    "pinyin": "mei3",
+    "definition": "beautiful",
+    "examples": [
+      {
+        "word": "美国",
+        "pinyin": "Mei3guo2",
+        "definition": "USA"
+      },
+      {
+        "word": "美女",
+        "pinyin": "mei3nv3",
+        "definition": "beautiful woman"
+      }
+    ]
+  },
+  {
+    "character": "米",
+    "pinyin": "mi3",
+    "definition": "rice (raw)",
+    "examples": [
+      {
+        "word": "米饭",
+        "pinyin": "mi3fan4",
+        "definition": "rice (cooked)"
+      }
+    ]
+  },
+  {
+    "character": "饭",
+    "pinyin": "fan4",
+    "definition": "meal / cooked rice",
+    "examples": [
+      {
+        "word": "米饭",
+        "pinyin": "mi3fan4",
+        "definition": "rice (cooked)"
+      }
+    ]
+  },
+  {
+    "character": "面",
+    "pinyin": "mian4",
+    "definition": "noodles / face",
+    "examples": [
+      {
+        "word": "面条",
+        "pinyin": "mian4tiao2",
+        "definition": "noodles"
+      }
+    ]
+  },
+  {
+    "character": "条",
+    "pinyin": "tiao2",
+    "definition": "strip / long piece",
+    "examples": [
+      {
+        "word": "面条",
+        "pinyin": "mian4tiao2",
+        "definition": "noodles"
+      }
+    ]
+  },
+  {
+    "character": "包",
+    "pinyin": "bao1",
+    "definition": "bag / to wrap",
+    "examples": [
+      {
+        "word": "包子",
+        "pinyin": "bao1zi",
+        "definition": "steamed bun"
+      },
+      {
+        "word": "书包",
+        "pinyin": "shu1bao1",
+        "definition": "schoolbag"
+      }
+    ]
+  },
+  {
+    "character": "子",
+    "pinyin": "zi",
+    "definition": "child / suffix",
+    "examples": [
+      {
+        "word": "包子",
+        "pinyin": "bao1zi",
+        "definition": "steamed bun"
+      },
+      {
+        "word": "饺子",
+        "pinyin": "jiao3zi",
+        "definition": "dumpling"
+      }
+    ]
+  },
+  {
+    "character": "饺",
+    "pinyin": "jiao3",
+    "definition": "dumpling",
+    "examples": [
+      {
+        "word": "饺子",
+        "pinyin": "jiao3zi",
+        "definition": "dumpling"
+      }
+    ]
+  },
+  {
+    "character": "茶",
+    "pinyin": "cha2",
+    "definition": "tea",
+    "examples": [
+      {
+        "word": "茶",
+        "pinyin": "cha2",
+        "definition": "tea"
+      }
+    ]
+  },
+  {
+    "character": "咖",
+    "pinyin": "ka1",
+    "definition": "coffee (phonetic)",
+    "examples": [
+      {
+        "word": "咖啡",
+        "pinyin": "ka1fei1",
+        "definition": "coffee"
+      }
+    ]
+  },
+  {
+    "character": "啡",
+    "pinyin": "fei1",
+    "definition": "coffee (phonetic)",
+    "examples": [
+      {
+        "word": "咖啡",
+        "pinyin": "ka1fei1",
+        "definition": "coffee"
+      }
+    ]
+  },
+  {
+    "character": "水",
+    "pinyin": "shui3",
+    "definition": "water",
+    "examples": [
+      {
+        "word": "水",
+        "pinyin": "shui3",
+        "definition": "water"
+      }
+    ]
+  },
+  {
+    "character": "手",
+    "pinyin": "shou3",
+    "definition": "hand",
+    "examples": [
+      {
+        "word": "手机",
+        "pinyin": "shou3ji1",
+        "definition": "mobile phone"
+      },
+      {
+        "word": "右手",
+        "pinyin": "you4shou3",
+        "definition": "right hand"
+      }
+    ]
+  },
+  {
+    "character": "机",
+    "pinyin": "ji1",
+    "definition": "machine",
+    "examples": [
+      {
+        "word": "手机",
+        "pinyin": "shou3ji1",
+        "definition": "mobile phone"
+      },
+      {
+        "word": "飞机",
+        "pinyin": "fei1ji1",
+        "definition": "airplane"
+      }
+    ]
+  },
+  {
+    "character": "书",
+    "pinyin": "shu1",
+    "definition": "book",
+    "examples": [
+      {
+        "word": "书",
+        "pinyin": "shu1",
+        "definition": "book"
+      },
+      {
+        "word": "看书",
+        "pinyin": "kan4shu1",
+        "definition": "read a book"
+      }
+    ]
+  }
 ]
